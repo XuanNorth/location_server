@@ -1,4 +1,6 @@
 package com.example.locationserver;
 
-public interface DataRepository extends org.springframework.data.jpa.repository.JpaRepository<com.example.locationserver.Data, java.lang.Long> {
-  }
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface DataRepository extends JpaRepository<Data, Long> {
+}
